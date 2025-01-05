@@ -1,0 +1,37 @@
+{
+  "name": "f-control-flow",
+  "version": "0.0.1",
+  "description": "Helper function which wraps control flow logic.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./*": "./dist/*.js"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorteokw/f-control-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victorteokw/f-control-flow/issues"
+  },
+  "homepage": "https://github.com/victorteokw/f-control-flow#readme",
+  "author": "Victor Teo <yeannylam@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "jest",
+    "test-cov": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@jest/globals": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5"
+  }
+}
