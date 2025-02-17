@@ -1,12 +1,9 @@
 {
   "name": "f-control-flow",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Helper function which wraps control flow logic.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    "./*": "./dist/*.js"
-  },
   "files": [
     "README.md",
     "LICENSE",
